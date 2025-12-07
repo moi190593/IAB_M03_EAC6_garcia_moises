@@ -1,9 +1,8 @@
-Els tests unitaris són fonamentals perquè permeten comprovar que cada part del codi funciona correctament de manera independent. Gràcies als tests unitaris:
+Els tests unitaris són fonamentals perquè permeten comprovar que cada part del codi funciona correctament de manera independent. 
+Gràcies als tests unitaris:
 
 - Es detecten errors ràpidament quan es fan canvis o afegits al codi.
 - S’eviten regressions, és a dir, que una millora o correcció trenqui funcionalitats que ja funcionaven.
 - Faciliten la refactorització i el manteniment, ja que donen confiança per modificar el codi sense por a trencar res.
 - Serveixen com a documentació viva del comportament esperat de les funcions i mètodes.
 - Milloren la qualitat i la robustesa del programari, fent que sigui més fiable i fàcil de corregir i evolucionar.
-
-En resum, els tests unitaris són una eina clau per garantir la qualitat, la seguretat i la sostenibilitat dels projectes de programari.

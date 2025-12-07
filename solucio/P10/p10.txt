@@ -2,8 +2,8 @@ Resultats experiment MLflow (K sklearn ciclistes):
 
 - El valor de K amb millor v-measure és: K = 4 = 0.73.
 - Segons el v-measure k4 seria el més indicat per fer el clustering.
-No obstant, sempre i quant la completeness i la homogeneity siguin també raonablement altes.
-En aquest cas la homogeneity també presenta el valor més alt. No la completeness, però sí segueix
+No obstant, sempre i quan la completeness i la homogeneity siguin també raonablement altes.
+En aquest cas la homogeneity també presenta el valor més alt. La completeness no, però sí segueix
 sent un valor elevat. Per tant podriem concloure que en aquest cas particular k = 4 seria el nombre
 adequat de clusters
 - El valor de K que té millor completeness és K = 2 = 0.84

@@ -69,7 +69,7 @@ if __name__ == "__main__":
     # Escriure a CSV
     with open(STR_CICLISTES, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(['id', 'tp', 'tb', 'tt', 'tipus'])  # capçalera
+        writer.writerow(['id', 'tp', 'tb', 'tt', 'tipus'])
         writer.writerows(dataset)
 
     logging.info("s'ha generat data/ciclistes.csv")

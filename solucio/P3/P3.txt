@@ -1,17 +1,24 @@
 Ús de pickle i guardat de models
 
-Guardar els models amb pickle ens permet desar a disc l'estat entrenat del model de clustering (KMeans), així com altres objectes útils (com els scores i el diccionari d'associació de tipus). Això és útil perquè:
+Guardar els models amb pickle ens permet desar a disc l'estat entrenat del model de clustering, 
+així com altres objectes útils (com els scores i el diccionari d'associació de tipus). 
+Això és útil perquè:
 - No cal reentrenar el model cada vegada que volem fer una predicció o reutilitzar-lo.
 - Podem compartir el model amb altres persones o processos.
 - Ens assegurem que les prediccions futures es fan amb exactament el mateix model que hem validat.
 
-Pickle és una llibreria de Python que permet serialitzar (convertir a bytes) i deserialitzar (recuperar) objectes complexos de Python, com models de machine learning, diccionaris, llistes, etc. Sense pickle, seria molt més complicat guardar i recuperar aquests objectes, ja que hauríem de convertir-los manualment a formats més simples (com CSV o JSON), perdent funcionalitat i estructura.
+Pickle és una llibreria de Python que permet serialitzar (convertir a bytes) i deserialitzar (recuperar) 
+objectes complexos de Python, com models de machine learning, diccionaris, llistes, etc. 
+Sense pickle, seria molt més complicat guardar i recuperar aquests objectes, ja que hauríem de convertir-los 
+manualment a formats més simples (com CSV o JSON), perdent funcionalitat i estructura.
 
 
 Associació entre tipus de ciclistes i classes del model
 
-El model de clustering KMeans assigna automàticament una etiqueta numèrica (label 0, 1, 2, 3) a cada clúster, però no sap quin clúster correspon a cada tipus real de ciclista (BEBB, BEMB, MEBB, MEMB). Per fer l'associació:
-1. S'analitzen els centres dels clústers (valors mitjans de tp i tb de cada clúster).
+El model de clustering KMeans assigna automàticament una etiqueta numèrica (label 0, 1, 2, 3) a cada clúster, 
+però no sap quin clúster correspon a cada tipus real de ciclista (BEBB, BEMB, MEBB, MEMB). 
+Per fer l'associació:
+1. S'analitzen els centres dels clústers.
 2. Es busca quin clúster té la suma més baixa de temps (pujada + baixada): aquest s'associa a BEBB (bons escaladors i bons baixadors).
 3. Es busca quin clúster té la suma més alta de temps: aquest s'associa a MEMB (mals escaladors i mals baixadors).
 4. Els dos clústers restants s'ordenen segons el temps de pujada per assignar-los a BEMB i MEBB.

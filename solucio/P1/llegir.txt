@@ -26,7 +26,6 @@ El dataset generat es desa a:
 4. Execució de l’script
 ------------------------
 Per generar el dataset s'ha executat:
-    cd c:\Users\moises\Desktop\IAB_M03_EAC6_garcia_moises\portcanto
     python generardataset.py
 
 Sortida per pantalla:

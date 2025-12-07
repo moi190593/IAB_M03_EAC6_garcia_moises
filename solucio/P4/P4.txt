@@ -1,0 +1,16 @@
+Contingut de la carpeta informes
+
+A la carpeta informes es generen quatre fitxers de text, un per a cada tipus de ciclista:
+- BEBB.txt
+- BEMB.txt
+- MEBB.txt
+- MEMB.txt
+
+Cada fitxer conté la llista de ciclistes que el model de clustering ha classificat dins d’aquell grup. Per a cada ciclista, es mostren els seus valors de temps de pujada (tp), temps de baixada (tb) i el label assignat pel model. El contingut serveix per consultar fàcilment quins ciclistes pertanyen a cada clúster segons el comportament detectat pel model.
+
+Aquests informes permeten:
+- Visualitzar la composició de cada grup de ciclistes segons el model.
+- Analitzar si la classificació feta pel model té sentit segons els valors de tp i tb.
+- Facilitar la revisió i validació dels resultats del clustering.
+
+En resum, la carpeta informes conté la classificació final dels ciclistes agrupats per tipus segons el model entrenat.

@@ -1,0 +1,42 @@
+Fitxer: llegir.txt
+Exercici: P1 (1p). script generardataset.py
+Alumne: Moises Garcia Pedemonte
+Curs: 2025-26
+
+1. Entorn d’execució
+---------------------
+- Sistema operatiu: Windows 11
+- Versió de Python: 3.13.9
+- Entorn virtual: No, s'ha executat amb l'intèrpret del sistema.
+
+2. Llibreries utilitzades
+--------------------------
+- os
+- csv
+- logging
+- numpy
+
+3. Estructura del projecte
+---------------------------
+S'ha executat l'script des de la carpeta:
+    c:\Users\moises\Desktop\IAB_M03_EAC6_garcia_moises\portcanto
+El dataset generat es desa a:
+    data/ciclistes.csv
+
+4. Execució de l’script
+------------------------
+Per generar el dataset s'ha executat:
+    cd c:\Users\moises\Desktop\IAB_M03_EAC6_garcia_moises\portcanto
+    python generardataset.py
+
+Sortida per pantalla:
+    INFO: s'ha generat data/ciclistes.csv
+
+5. Contingut del fitxer generat
+-------------------------------
+- El fitxer data/ciclistes.csv conté les columnes: id, tp, tb, tt, tipus
+- S'han generat 25 ciclistes per cada tipus (BEBB, BEMB, MEBB, MEMB) — 100 registres en total
+
+6. Reproducció i comentaris
+----------------------------
+- Aquest llegir.txt descriu l'entorn i els passos mínims necessaris per verificar la generació del dataset.

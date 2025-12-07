@@ -1,0 +1,6 @@
+- S'ha corregit la indentació segons recomanacions de pylint
+- S'ha afegit un docstring al principi del fitxer
+- S'ha millorat algun docstring ja existent
+- S'han col·locat les constants en majúscules
+- S'han eliminat imports necessaris, concretament 'os'
+- S'ha afegit l'encoding='utf-8'

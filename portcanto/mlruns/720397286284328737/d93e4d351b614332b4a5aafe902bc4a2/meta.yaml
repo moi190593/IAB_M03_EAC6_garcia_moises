@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/moises/Desktop/IAB_M03_EAC6_garcia_moises/portcanto/mlruns/720397286284328737/d93e4d351b614332b4a5aafe902bc4a2/artifacts
+end_time: 1765125487306
+entry_point_name: ''
+experiment_id: '720397286284328737'
+lifecycle_stage: active
+run_id: d93e4d351b614332b4a5aafe902bc4a2
+run_name: K=6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765125486937
+status: 3
+tags: []
+user_id: moises

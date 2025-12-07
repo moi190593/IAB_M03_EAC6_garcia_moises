@@ -1,1 +1,22 @@
-https://github.com/moi190593/EAC6_M3_Moises_Garcia.git
+URL: https://github.com/moi190593/IAB_M03_EAC6_garcia_moises
+
+Flux de treball per exportar el projecte a Github:
+1. Crear un repositori nou a Github.
+2. Clonar el repositori en l'entorn local.
+3. Afegir tots els fitxers necessaris a la nova carpeta del repositori.
+4. Fer commit dels canvis.
+5. Fer push del projecte al repositori remot.
+
+Comandes utilitzades:
+
+git clone "url github"
+#Clona el repositori de github a un directori local
+
+git add .
+#Afegeix tots els fitxers nous i modificats a l'índex
+
+git commit -m "Missatge"
+#Desa els canvis a l'historial local amb un missatge
+
+git push -u origin main
+#Puja el projecte a la branca principal del repositori remot
